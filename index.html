@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bravo Fumigation - Professional Pest Control Services</title>
+    <meta name="description" content="Bravo Fumigation offers professional pest control, fumigation, and extermination services for residential and commercial properties. 24/7 emergency service available.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Bravo Fumigation</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#services" class="nav-link">Pest Control</a></li>
+                    <li><a href="#cleaning" class="nav-link">Cleaning</a></li>
+                    <li><a href="#booking" class="nav-link">Book Now</a></li>
+                    <li><a href="#emergency" class="nav-link emergency-link">Emergency</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Protect Your Home with <span class="brand-highlight">Bravo Fumigation</span></h1>
+                <p class="hero-subtitle">Professional pest control and fumigation services you can trust. Safe, effective, and guaranteed.</p>
+                <div class="hero-buttons">
+                    <a href="#booking" class="btn btn-primary">Book Service Now</a>
+                    <a href="#emergency" class="btn btn-emergency">24/7 Emergency Service</a>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="150">0</div>
+                    <div class="stat-label">Services Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="98">0</div>
+                    <div class="stat-label">Customer Satisfaction %</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="4">0</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive pest control solutions for every need</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-service="residential">
+                    <div class="service-image">
+                        <img src="images/residential-fumigation.jpg" alt="Residential Fumigation Service" class="service-img">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Residential Fumigation</h3>
+                        <p class="service-description">Complete home protection against all types of pests with safe, family-friendly treatments.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Termite Control</li>
+                            <li><i class="fas fa-check"></i> Rodent Removal</li>
+                            <li><i class="fas fa-check"></i> Bed Bug Treatment</li>
+                        </ul>
+                        <button class="btn btn-secondary service-btn" data-service="residential">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="commercial">
+                    <div class="service-image">
+                        <img src="images/commercial-pest-control.jpg" alt="Commercial Pest Control Service" class="service-img">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Commercial Pest Control</h3>
+                        <p class="service-description">Tailored solutions for businesses, offices, and industrial facilities with minimal disruption.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Restaurant Services</li>
+                            <li><i class="fas fa-check"></i> Warehouse Protection</li>
+                            <li><i class="fas fa-check"></i> Office Buildings</li>
+                        </ul>
+                        <button class="btn btn-secondary service-btn" data-service="commercial">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="emergency">
+                    <div class="service-image">
+                        <img src="images/emergency-service.jpg" alt="Emergency Pest Control Service" class="service-img">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Emergency Services</h3>
+                        <p class="service-description">24/7 rapid response for urgent pest situations. We're there when you need us most.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Immediate Response</li>
+                            <li><i class="fas fa-check"></i> Critical Infestations</li>
+                            <li><i class="fas fa-check"></i> After Hours Service</li>
+                        </ul>
+                        <button class="btn btn-emergency service-btn" data-service="emergency">Get Help Now</button>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="preventive">
+                    <div class="service-image">
+                        <img src="images/preventive-maintenance.jpg" alt="Preventive Pest Maintenance" class="service-img">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Preventive Maintenance</h3>
+                        <p class="service-description">Regular scheduled treatments to keep your property pest-free year-round.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Quarterly Inspections</li>
+                            <li><i class="fas fa-check"></i> Seasonal Treatments</li>
+                            <li><i class="fas fa-check"></i> Monitoring Systems</li>
+                        </ul>
+                        <button class="btn btn-secondary service-btn" data-service="preventive">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Work Gallery</h2>
+                <p class="section-subtitle">See the results of our professional pest control services</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="images/termite-control.jpg" alt="Termite Control Treatment" class="gallery-img">
+                        <div class="image-overlay">
+                            <div class="gallery-info">
+                                <h4>Termite Control</h4>
+                                <p>Complete termite elimination and prevention</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="images/rodent-removal.jpg" alt="Rodent Removal Service" class="gallery-img">
+                        <div class="image-overlay">
+                            <div class="gallery-info">
+                                <h4>Rodent Removal</h4>
+                                <p>Safe and humane rodent control solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="images/bed-bug-treatment.jpg" alt="Bed Bug Extermination" class="gallery-img">
+                        <div class="image-overlay">
+                            <div class="gallery-info">
+                                <h4>Bed Bug Treatment</h4>
+                                <p>Thorough bed bug extermination services</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="images/cockroach-control.jpg" alt="Cockroach Control" class="gallery-img">
+                        <div class="image-overlay">
+                            <div class="gallery-info">
+                                <h4>Cockroach Control</h4>
+                                <p>Effective cockroach elimination methods</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="images/ant-control.jpg" alt="Ant Control Service" class="gallery-img">
+                        <div class="image-overlay">
+                            <div class="gallery-info">
+                                <h4>Ant Control</h4>
+                                <p>Complete ant colony elimination</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="images/mosquito-treatment.jpg" alt="Mosquito Control Treatment" class="gallery-img">
+                        <div class="image-overlay">
+                            <div class="gallery-info">
+                                <h4>Mosquito Treatment</h4>
+                                <p>Outdoor mosquito control solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="images/deep-cleaning.jpg" alt="Deep Cleaning Service" class="gallery-img">
+                        <div class="image-overlay">
+                            <div class="gallery-info">
+                                <h4>Deep Cleaning</h4>
+                                <p>Post-treatment deep cleaning services</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="images/carpet-cleaning.jpg" alt="Carpet Cleaning Service" class="gallery-img">
+                        <div class="image-overlay">
+                            <div class="gallery-info">
+                                <h4>Carpet Cleaning</h4>
+                                <p>Professional carpet and upholstery cleaning</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="images/disinfection-service.jpg" alt="Disinfection Service" class="gallery-img">
+                        <div class="image-overlay">
+                            <div class="gallery-info">
+                                <h4>Disinfection</h4>
+                                <p>Medical-grade disinfection services</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cleaning Services Section -->
+    <section id="cleaning" class="cleaning">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Professional Cleaning Services</h2>
+                <p class="section-subtitle">Complete cleaning solutions for homes and businesses after pest treatments</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-service="deep-cleaning">
+                    <div class="service-image">
+                        <img src="images/deep-cleaning.jpg" alt="Deep Cleaning Service" class="service-img">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Deep Cleaning</h3>
+                        <p class="service-description">Comprehensive deep cleaning after pest treatments to ensure a safe and healthy environment.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Post-Treatment Sanitization</li>
+                            <li><i class="fas fa-check"></i> Hard-to-Reach Areas</li>
+                            <li><i class="fas fa-check"></i> Eco-Friendly Products</li>
+                        </ul>
+                        <button class="btn btn-secondary service-btn" data-service="deep-cleaning">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="carpet-cleaning">
+                    <div class="service-image">
+                        <img src="images/carpet-cleaning.jpg" alt="Carpet Cleaning Service" class="service-img">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Carpet & Upholstery</h3>
+                        <p class="service-description">Professional carpet and upholstery cleaning to remove allergens and pest residue.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Steam Cleaning</li>
+                            <li><i class="fas fa-check"></i> Stain Removal</li>
+                            <li><i class="fas fa-check"></i> Odor Elimination</li>
+                        </ul>
+                        <button class="btn btn-secondary service-btn" data-service="carpet-cleaning">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="disinfection">
+                    <div class="service-image">
+                        <img src="images/disinfection-service.jpg" alt="Disinfection Service" class="service-img">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Disinfection Services</h3>
+                        <p class="service-description">Medical-grade disinfection to eliminate bacteria and viruses after pest control.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Hospital-Grade Disinfectants</li>
+                            <li><i class="fas fa-check"></i> High-Touch Surface Cleaning</li>
+                            <li><i class="fas fa-check"></i> Air Quality Improvement</li>
+                        </ul>
+                        <button class="btn btn-secondary service-btn" data-service="disinfection">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="commercial-cleaning">
+                    <div class="service-image">
+                        <img src="images/commercial-cleaning.jpg" alt="Commercial Cleaning Service" class="service-img">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Commercial Cleaning</h3>
+                        <p class="service-description">Specialized cleaning for businesses, offices, and commercial properties.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Office Buildings</li>
+                            <li><i class="fas fa-check"></i> Retail Spaces</li>
+                            <li><i class="fas fa-check"></i> Industrial Facilities</li>
+                        </ul>
+                        <button class="btn btn-secondary service-btn" data-service="commercial-cleaning">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Book Your Service</h2>
+                <p class="section-subtitle">Schedule your fumigation service in just a few simple steps</p>
+            </div>
+            
+            <div class="booking-container">
+                <div class="booking-progress">
+                    <div class="progress-step active" data-step="1">
+                        <div class="step-number">1</div>
+                        <div class="step-label">Service Type</div>
+                    </div>
+                    <div class="progress-step" data-step="2">
+                        <div class="step-number">2</div>
+                        <div class="step-label">Property Details</div>
+                    </div>
+                    <div class="progress-step" data-step="3">
+                        <div class="step-number">3</div>
+                        <div class="step-label">Schedule</div>
+                    </div>
+                    <div class="progress-step" data-step="4">
+                        <div class="step-number">4</div>
+                        <div class="step-label">Contact Info</div>
+                    </div>
+                    <div class="progress-step" data-step="5">
+                        <div class="step-number">5</div>
+                        <div class="step-label">Confirmation</div>
+                    </div>
+                </div>
+
+                <form id="bookingForm" class="booking-form">
+                    <!-- Step 1: Service Selection -->
+                    <div class="form-step active" data-step="1">
+                        <h3>Select Service Type</h3>
+                        <div class="service-selection">
+                            <label class="service-option">
+                                <input type="radio" name="serviceType" value="residential" required>
+                                <div class="service-option-card">
+                                    <i class="fas fa-home"></i>
+                                    <h4>Residential</h4>
+                                    <p>Home and apartment pest control</p>
+                                </div>
+                            </label>
+                            <label class="service-option">
+                                <input type="radio" name="serviceType" value="commercial" required>
+                                <div class="service-option-card">
+                                    <i class="fas fa-building"></i>
+                                    <h4>Commercial</h4>
+                                    <p>Business and industrial services</p>
+                                </div>
+                            </label>
+                            <label class="service-option">
+                                <input type="radio" name="serviceType" value="emergency" required>
+                                <div class="service-option-card">
+                                    <i class="fas fa-exclamation-triangle"></i>
+                                    <h4>Emergency</h4>
+                                    <p>24/7 urgent pest control</p>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="pest-type-selection">
+                            <h4>What type of pest are you dealing with?</h4>
+                            <div class="pest-grid">
+                                <label class="pest-option">
+                                    <input type="checkbox" name="pestType" value="termites">
+                                    <span>Termites</span>
+                                </label>
+                                <label class="pest-option">
+                                    <input type="checkbox" name="pestType" value="rodents">
+                                    <span>Rodents</span>
+                                </label>
+                                <label class="pest-option">
+                                    <input type="checkbox" name="pestType" value="bedbugs">
+                                    <span>Bed Bugs</span>
+                                </label>
+                                <label class="pest-option">
+                                    <input type="checkbox" name="pestType" value="cockroaches">
+                                    <span>Cockroaches</span>
+                                </label>
+                                <label class="pest-option">
+                                    <input type="checkbox" name="pestType" value="ants">
+                                    <span>Ants</span>
+                                </label>
+                                <label class="pest-option">
+                                    <input type="checkbox" name="pestType" value="spiders">
+                                    <span>Spiders</span>
+                                </label>
+                                <label class="pest-option">
+                                    <input type="checkbox" name="pestType" value="mosquitoes">
+                                    <span>Mosquitoes</span>
+                                </label>
+                                <label class="pest-option">
+                                    <input type="checkbox" name="pestType" value="other">
+                                    <span>Other</span>
+                                </label>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary next-step">Next Step</button>
+                    </div>
+
+                    <!-- Step 2: Property Details -->
+                    <div class="form-step" data-step="2">
+                        <h3>Property Details</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="propertyType">Property Type</label>
+                                <select id="propertyType" name="propertyType" required>
+                                    <option value="">Select property type</option>
+                                    <option value="house">House</option>
+                                    <option value="apartment">Apartment</option>
+                                    <option value="condo">Condo</option>
+                                    <option value="townhouse">Townhouse</option>
+                                    <option value="office">Office</option>
+                                    <option value="warehouse">Warehouse</option>
+                                    <option value="restaurant">Restaurant</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="propertySize">Property Size (sq ft)</label>
+                                <input type="number" id="propertySize" name="propertySize" placeholder="e.g., 1500" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="serviceType">Service Type</label>
+                            <select id="serviceType" name="serviceType" required>
+                                <option value="">Select a service</option>
+                                <optgroup label="Pest Control Services">
+                                    <option value="residential">Residential Fumigation</option>
+                                    <option value="commercial">Commercial Pest Control</option>
+                                    <option value="emergency">Emergency Services</option>
+                                    <option value="preventive">Preventive Maintenance</option>
+                                </optgroup>
+                                <optgroup label="Cleaning Services">
+                                    <option value="deep-cleaning">Deep Cleaning</option>
+                                    <option value="carpet-cleaning">Carpet & Upholstery</option>
+                                    <option value="disinfection">Disinfection Services</option>
+                                    <option value="commercial-cleaning">Commercial Cleaning</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="infestationLevel">Infestation Level</label>
+                            <select id="infestationLevel" name="infestationLevel" required>
+                                <option value="">Select severity</option>
+                                <option value="mild">Mild - Just a few sightings</option>
+                                <option value="moderate">Moderate - Regular sightings</option>
+                                <option value="severe">Severe - Widespread infestation</option>
+                                <option value="unknown">Unknown - Need inspection</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="additionalInfo">Additional Information</label>
+                            <textarea id="additionalInfo" name="additionalInfo" rows="4" placeholder="Tell us more about your pest problem..."></textarea>
+                        </div>
+                        <div class="form-navigation">
+                            <button type="button" class="btn btn-secondary prev-step">Previous</button>
+                            <button type="button" class="btn btn-primary next-step">Next Step</button>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Schedule -->
+                    <div class="form-step" data-step="3">
+                        <h3>Select Date & Time</h3>
+                        <div class="form-group">
+                            <label for="serviceDate">Preferred Service Date</label>
+                            <input type="date" id="serviceDate" name="serviceDate" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="serviceTime">Preferred Time Slot</label>
+                            <div class="time-slots">
+                                <label class="time-slot">
+                                    <input type="radio" name="serviceTime" value="morning" required>
+                                    <span>Morning (8AM - 12PM)</span>
+                                </label>
+                                <label class="time-slot">
+                                    <input type="radio" name="serviceTime" value="afternoon" required>
+                                    <span>Afternoon (12PM - 4PM)</span>
+                                </label>
+                                <label class="time-slot">
+                                    <input type="radio" name="serviceTime" value="evening" required>
+                                    <span>Evening (4PM - 8PM)</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="flexibility">Schedule Flexibility</label>
+                            <select id="flexibility" name="flexibility" required>
+                                <option value="">Select flexibility</option>
+                                <option value="exact">Exact time required</option>
+                                <option value="flexible">Flexible within time slot</option>
+                                <option value="very-flexible">Very flexible - any time works</option>
+                            </select>
+                        </div>
+                        <div class="form-navigation">
+                            <button type="button" class="btn btn-secondary prev-step">Previous</button>
+                            <button type="button" class="btn btn-primary next-step">Next Step</button>
+                        </div>
+                    </div>
+
+                    <!-- Step 4: Contact Information -->
+                    <div class="form-step" data-step="4">
+                        <h3>Contact Information</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Service Address</label>
+                            <input type="text" id="address" name="address" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="city">City</label>
+                            <input type="text" id="city" name="city" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="zipCode">ZIP Code</label>
+                            <input type="text" id="zipCode" name="zipCode" required>
+                        </div>
+                        <div class="form-navigation">
+                            <button type="button" class="btn btn-secondary prev-step">Previous</button>
+                            <button type="button" class="btn btn-primary next-step">Review Booking</button>
+                        </div>
+                    </div>
+
+                    <!-- Step 5: Confirmation -->
+                    <div class="form-step" data-step="5">
+                        <h3>Review & Confirm</h3>
+                        <div class="booking-summary">
+                            <div class="summary-section">
+                                <h4>Service Details</h4>
+                                <div id="serviceSummary"></div>
+                            </div>
+                            <div class="summary-section">
+                                <h4>Property Information</h4>
+                                <div id="propertySummary"></div>
+                            </div>
+                            <div class="summary-section">
+                                <h4>Schedule</h4>
+                                <div id="scheduleSummary"></div>
+                            </div>
+                            <div class="summary-section">
+                                <h4>Contact Information</h4>
+                                <div id="contactSummary"></div>
+                            </div>
+                        </div>
+                        <div class="form-navigation">
+                            <button type="button" class="btn btn-secondary prev-step">Previous</button>
+                            <button type="submit" class="btn btn-primary">Confirm Booking</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Section -->
+    <section id="emergency" class="emergency">
+        <div class="container">
+            <div class="emergency-content">
+                <div class="emergency-text">
+                    <h2 class="emergency-title">24/7 Emergency Service</h2>
+                    <p class="emergency-subtitle">Pest problems don't wait for business hours. We're here for you anytime, day or night.</p>
+                    <div class="emergency-features">
+                        <div class="emergency-feature">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>Immediate Response</span>
+                        </div>
+                        <div class="emergency-feature">
+                            <i class="fas fa-clock"></i>
+                            <span>Available 24/7</span>
+                        </div>
+                        <div class="emergency-feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Fast, Safe Solutions</span>
+                        </div>
+                    </div>
+                    <div class="emergency-contact">
+                        <a href="tel:1-800-EMERGENCY" class="btn btn-emergency btn-large">
+                            <i class="fas fa-phone-alt"></i>
+                            Call Now: 1-800-BRAVO-24
+                        </a>
+                        <button class="btn btn-secondary" id="emergencyBooking">Book Emergency Service</button>
+                    </div>
+                </div>
+                <div class="emergency-form-container">
+                    <form id="emergencyForm" class="emergency-form">
+                        <h3>Emergency Service Request</h3>
+                        <div class="form-group">
+                            <label for="emergencyName">Your Name</label>
+                            <input type="text" id="emergencyName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="emergencyPhone">Phone Number</label>
+                            <input type="tel" id="emergencyPhone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="emergencyIssue">Emergency Issue</label>
+                            <select id="emergencyIssue" required>
+                                <option value="">Select emergency type</option>
+                                <option value="severe-infestation">Severe Infestation</option>
+                                <option value="health-risk">Health Risk Concern</option>
+                                <option value="property-damage">Property Damage</option>
+                                <option value="business-closure">Business Closure Risk</option>
+                                <option value="other">Other Emergency</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="emergencyDescription">Describe the Situation</label>
+                            <textarea id="emergencyDescription" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-emergency">Send Emergency Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Bravo Fumigation</h2>
+                    <p class="about-description">
+                        With over 15 years of experience in the pest control industry, Bravo Fumigation has become the trusted name for professional fumigation services. Our team of certified technicians is dedicated to providing safe, effective, and environmentally responsible pest control solutions.
+                    </p>
+                    <div class="about-values">
+                        <div class="value-item">
+                            <i class="fas fa-certificate"></i>
+                            <h4>Licensed & Insured</h4>
+                            <p>Fully certified and insured for your peace of mind</p>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-leaf"></i>
+                            <h4>Eco-Friendly</h4>
+                            <p>Environmentally responsible treatment methods</p>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-guarantee"></i>
+                            <h4>Satisfaction Guaranteed</h4>
+                            <p>We stand behind our work with a 100% guarantee</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Years in Business</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Expert Technicians</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Emergency Service</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Satisfaction Rate</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Customers Say</h2>
+                <p class="section-subtitle">Real reviews from satisfied customers</p>
+            </div>
+            <div class="testimonials-carousel">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Bravo Fumigation saved our home from a severe termite infestation. Their team was professional, thorough, and the results were amazing. Highly recommend!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <span>Homeowner</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"As a restaurant owner, pest control is critical. Bravo has been our partner for 3 years, keeping our establishment completely pest-free."</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Michael Chen</h4>
+                                <span>Restaurant Owner</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Called Bravo for emergency bed bug treatment at 2 AM. They arrived within 2 hours and solved our problem. Incredible service!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>David Martinez</h4>
+                                <span>Property Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="section-subtitle">We're here to help with all your pest control needs</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>1-800-BRAVO-24</p>
+                            <p>Mon-Fri: 8AM-8PM, Sat-Sun: 9AM-6PM</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>info@bravofumigation.com</p>
+                            <p>support@bravofumigation.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Address</h4>
+                            <p>123 Service Road</p>
+                            <p>Business City, BC 12345</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Business Hours</h4>
+                            <p>Monday-Friday: 8AM-8PM</p>
+                            <p>Saturday: 9AM-6PM</p>
+                            <p>Sunday: 10AM-4PM</p>
+                            <p>Emergency: 24/7 Available</p>
+                        </div>
+                    </div>
+                </div>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="contactName">Name</label>
+                            <input type="text" id="contactName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactEmail">Email</label>
+                            <input type="email" id="contactEmail" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactSubject">Subject</label>
+                        <select id="contactSubject" required>
+                            <option value="">Select subject</option>
+                            <option value="booking">Service Booking</option>
+                            <option value="quote">Request Quote</option>
+                            <option value="emergency">Emergency Service</option>
+                            <option value="complaint">Complaint</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactMessage">Message</label>
+                        <textarea id="contactMessage" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Bravo Fumigation</span>
+                    </div>
+                    <p class="footer-description">Professional pest control and fumigation services you can trust. Safe, effective, and guaranteed.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Residential Fumigation</a></li>
+                        <li><a href="#services">Commercial Pest Control</a></li>
+                        <li><a href="#services">Emergency Services</a></li>
+                        <li><a href="#services">Preventive Maintenance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Safety Information</a></li>
+                        <li><a href="#">License Information</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Bravo Fumigation. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle">Success!</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p id="modalMessage">Your request has been submitted successfully.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary modal-ok">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
